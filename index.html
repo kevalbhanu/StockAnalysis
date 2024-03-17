@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div class="stkname">
+    <label for="stock-name">Enter Stock Name:</label>
+    <input type="text" id="stock-name" class="stkname">
+  </div>
+  <div>
+    <label for="month-range">Select month range:</label>
+    <input type="month" id="month-range-from" name="month-range-from">
+    to
+    <input type="month" id="month-range-to" name="month-range-to">
+  </div>
+  <button id="fetch-data-btn">Fetch Data</button>
+  <div>
+        <canvas id="'myChart"></canvas>
+    </div>
+    <script src="app.js"></script>
+    <script scr="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
